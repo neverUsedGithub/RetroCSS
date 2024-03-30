@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite + TS</title>
+        <link rel="stylesheet" href="./src/style.css" />
+    </head>
+    <body>
+        <div class="rc-window">
+            <h1>Retro CSS</h1>
+            <p>
+                A CSS library designed to look like old school graphical
+                applications.
+            </p>
+
+            <div class="bl"></div>
+
+            <h2>Text</h2>
+            <p>Normal text, <b>bold text</b>.</p>
+
+            <div class="bl"></div>
+
+            <h2>Buttons</h2>
+            <p><button>Click me!</button> - default</p>
+            <div class="bl"></div>
+            <p><button class="btn-success">Click me!</button> - success</p>
+            <div class="bl"></div>
+            <p><button class="btn-warn">Click me!</button> - warning</p>
+            <div class="bl"></div>
+            <p><button class="btn-error">Click me!</button> - error</p>
+
+            <div class="bl"></div>
+            <h2>Checkboxes</h2>
+            <label class="rc-check">
+                <input type="checkbox" checked />
+                <div class="rc-dot"></div>
+            </label>
+            <span>Foo</span>
+            <br />
+            <label class="rc-check">
+                <input type="checkbox" />
+                <div class="rc-dot"></div>
+            </label>
+            <span>Bar</span>
+
+            <div class="bl"></div>
+            <h2>Radio Buttons</h2>
+            <label class="rc-radio">
+                <input type="radio" name="test" checked />
+                <div class="rc-dot"></div>
+            </label>
+            <span>Foo</span>
+            <br />
+
+            <label class="rc-radio">
+                <input type="radio" name="test" />
+                <div class="rc-dot"></div>
+            </label>
+            <span>Bar</span>
+
+            <div class="bl"></div>
+            <h2>Inputs</h2>
+            <input type="text" placeholder="Type something...">
+            <div class="bl"></div>
+            <textarea cols="30" rows="10" placeholder="You can use line breaks here..."></textarea>
+
+            <div class="bl"></div>
+            <h2>Windows</h2>
+            <div class="rc-window">
+                <h2>Hello, World!</h2>
+            </div>
+
+            <div class="bl"></div>
+            <h2>Shadows</h2>
+            <div class="rc-window rc-shadow">
+                <h2>A shadowed window</h2>
+            </div>
+
+            <div class="bl"></div>
+            <h2>Code Blocks</h2>
+            <pre><code><span class="fg-red">echo</span> <span class="fg-darkcyan">"Hello, World!"</span></code></pre>
+        </div>
+    </body>
+</html>
