@@ -1,1 +1,2 @@
-exclude: [ ".prettierrc" ]
+exclude:
+    - .prettierrc
