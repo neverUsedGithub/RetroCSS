@@ -184,6 +184,8 @@ pre {
     padding: 16px 9px;
     border: 4px double var(--color-gray);
     background: var(--color-black);
+    white-space: wrap;
+    word-break: break-all;
 }
 
 /* Scrollbar taken from: https://int10h.org/oldschool-pc-fonts/ */
